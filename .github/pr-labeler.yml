@@ -52,4 +52,4 @@ line-deletion-labels:
     label: too-many-lines-deleted
 
 author-labels:
-  theforce-label: ["darthvader"]
+  theforce-label: ["botlabel"]
