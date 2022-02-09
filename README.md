@@ -1,3 +1,3 @@
 # githubAppTesting
 
-test PR
+test pr
