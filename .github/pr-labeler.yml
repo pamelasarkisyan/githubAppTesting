@@ -16,11 +16,10 @@ path-labels:
   ci: ["/.ci/*"]
 
 target-branch-labels:
-  label-name: ["master", "support"]
-  experimental: ["experiments"]
+  support: ["support"]
 
 title-keyword-labels:
-  in-progress: ["WIP", "Work in progress"]
+  in-progress: ["WIP", "wip"]
 
 description-keyword-labels:
   label: ["word-occurance"]
@@ -53,4 +52,4 @@ line-deletion-labels:
     label: too-many-lines-deleted
 
 author-labels:
-  theforce-label: ["darthvader"]
+  theforce-label: ["botlabel"]
