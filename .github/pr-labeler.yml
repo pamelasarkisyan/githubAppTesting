@@ -16,11 +16,10 @@ path-labels:
   ci: ["/.ci/*"]
 
 target-branch-labels:
-  label-name: ["master", "support"]
-  experimental: ["experiments"]
+  support: ["support"]
 
 title-keyword-labels:
-  in-progress: ["WIP", "Work in progress"]
+  in-progress: ["WIP"]
 
 description-keyword-labels:
   label: ["word-occurance"]
