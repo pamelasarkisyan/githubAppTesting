@@ -1,3 +1,3 @@
 # githubAppTesting
 
-pr labeler
+test pr
