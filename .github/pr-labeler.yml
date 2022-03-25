@@ -1,2 +1,1 @@
-include:
-  remote: 'https://github.com/pamelasarkisyan/Configuration/blob/main/.github/pr-labeler.yml'
+extends: Configuration/.github/pr-labeler.yml
