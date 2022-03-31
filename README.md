@@ -1,3 +1,3 @@
 # githubAppTesting
 
-test extend without username
+test extend
