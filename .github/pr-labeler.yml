@@ -1,1 +1,2 @@
-_extends: Configuration
+_extends: pamelasarkisyan/Configuration
+name: pamelasarkisyan/githubAppTesting
