@@ -1,1 +1,55 @@
-_extends: pamelasarkisyan/Configuration
+settings:
+  process-closed-prs: false
+  process-merged-prs: false
+  remove-labels: true
+  remove-keyword-labels: false
+
+has-milestone-label: "milestone-detected"
+has-comments-label: "comments-detected"
+has-review-comments-label: "yay-reviews"
+is-mergeable-label: "can-be-merged"
+is-draft-label: "drafting"
+
+path-labels:
+  frontend: ["*.js", "*.css", "*.html"]
+  backend: ["/app/*"]
+  ci: ["/.ci/*"]
+
+target-branch-labels:
+  support: ["support"]
+
+title-keyword-labels:
+  in-progress: ["WIP"]
+
+description-keyword-labels:
+  label: ["word-occurance"]
+
+commit-count-labels:
+  - greater-than-equal: 10
+    less-than: 100
+    label: reasonably-many-commits
+  - greater-than: 100
+    label: too-many-commits
+
+line-changes-labels:
+  - greater-than: 300
+    less-than-equal: 1000
+    label: medium
+  - greater-than: 1000
+    label: large
+
+line-addition-labels:
+  - greater-than: 1
+    less-than: 10
+    label: few-lines
+  - greater-than-equal: 1000
+    label: too-many-lines
+
+line-deletion-labels:
+  - less-than: 10
+    label: few-lines-deleted
+  - greater-than: 2000
+    label: too-many-lines-deleted
+
+author-labels:
+  theforce-label: ["botlabel"]
